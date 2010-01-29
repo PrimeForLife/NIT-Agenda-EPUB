@@ -29,5 +29,6 @@
   <itemref idref="day3" />
   <itemref idref="day4" />
   <itemref idref="end_page" />
+  
  </spine>
 </package>
