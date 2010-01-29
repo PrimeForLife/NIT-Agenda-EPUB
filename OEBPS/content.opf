@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf"
+         unique-identifier="BookId">
+ <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:opf="http://www.idpf.org/2007/opf">
+   <dc:title>NIT Agenda</dc:title> 
+   <dc:creator opf:role="aut">PRIME For Life</dc:creator>
+   <dc:language>en-US</dc:language> 
+   <dc:rights>Public Domain</dc:rights> 
+   <dc:publisher>PRIME For Life</dc:publisher> 
+   <dc:identifier id="BookId">urn:uuid:jedisaber.com06282007214712</dc:identifier>
+ </metadata>
+ <manifest>
+  <item id="ncx" href="toc.ncx" media-type="text/xml" />
+  <item id="style" href="stylesheet.css" media-type="text/css" />
+  <item id="pagetemplate" href="page-template.xpgt" media-type="application/vnd.adobe-page-template+xml" />
+  <item id="title_page" href="title_page.xhtml" media-type="application/xhtml+xml" />
+  <item id="end_page" href="end_page.xhtml" media-type="application/xhtml+xml" />
+  <item id="day1" href="day1.xhtml" media-type="application/xhtml+xml" />
+  <item id="day2" href="day2.xhtml" media-type="application/xhtml+xml" />
+  <item id="day3" href="day3.xhtml" media-type="application/xhtml+xml" /> 
+  <item id="day4" href="day4.xhtml" media-type="application/xhtml+xml" />
+  <item id="imgl" href="images/agendaHead.png" media-type="image/jpeg" />
+ </manifest>
+ <spine toc="ncx">
+  <itemref idref="title_page" />
+  <itemref idref="day1" />
+  <itemref idref="day2" />
+  <itemref idref="day3" />
+  <itemref idref="day4" />
+  <itemref idref="end_page" />
+ </spine>
+</package>
